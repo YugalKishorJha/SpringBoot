@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+
+	<bean id="FirstStudent"
+		class="com.SpringCore.IOC.StudentWithStream">
+		<constructor-arg value="101" />
+		<constructor-arg value="yugal" />
+		<constructor-arg ref="FirstStudentStream" />
+	</bean>
+
+	<bean id="FirstStudentStream" class="com.SpringCore.IOC.Stream">
+		<constructor-arg value="java" />
+		<constructor-arg value="java-script" />
+		<constructor-arg value="python" />
+	</bean>
+
+</beans>

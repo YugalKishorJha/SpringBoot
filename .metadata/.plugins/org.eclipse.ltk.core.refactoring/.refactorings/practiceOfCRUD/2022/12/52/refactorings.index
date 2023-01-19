@@ -1,0 +1,8 @@
+1671362413073	Extract local variable 'findAll'
+1671362580305	Extract local variable 'findById'
+1671362800408	Extract local variable 'save'
+1671362874727	Rename local variable 'save'
+1671362905577	Extract local variable 'findById'
+1671364763007	Rename package 'com.example.practiceOfCRUD.contollerAdvice'
+1671364787308	Delete element
+1671364929575	Delete element

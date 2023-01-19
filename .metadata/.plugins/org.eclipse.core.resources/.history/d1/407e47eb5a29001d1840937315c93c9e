@@ -1,0 +1,16 @@
+
+public class Test {
+
+	static void sq(int r) {
+		System.out.println(r * r);
+	}
+
+	static int sum(int x) {
+		return x + x;
+	}
+
+public static void main(String[] args) {
+	sq(sum(5));
+	
+}
+}

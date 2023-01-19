@@ -1,0 +1,37 @@
+class course
+{
+IMP => SPRING CONTAINER ALL COLLECTION EXCEPT QUEUE
+
+
+String name ;
+Set concepts;
+double fees;
+
+public void setName(String name){
+this.name=name;
+}
+public void setConcepts(Set concepts){
+this.concepts=concepts;
+}
+public void setFees(double fees){
+this.fees=fees;
+}
+}
+
+
+
+main method me depdency manually inject karnma hai
+
+
+Set<concepts> cp= new HashSet();
+cp.of("java");
+cp.of("javaScipt");
+cp.of("python");
+
+
+Course cs= new Course();
+cs.setName("yugal");
+cs.setConcepts(cp);
+cs.setFees(350000.00);
+
+)

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- bean definitions here -->
+
+	<bean id="co2" class="com.SpringCore.DTO.Course">
+		<property name="name" value="FullStackDeveloper" />
+		<property name="fees" value="35000.5" />
+		<property name="concepts">
+			<list>
+			<value>java</value>
+			<value>JS</value>
+			<value>Python</value>
+			<!-- Here in set it will not automatically add duplicate -->
+			<value>Python</value>
+			<value>React</value>
+			<value>Spring</value>
+			</list>
+		
+		</property>
+	</bean>
+
+</beans>

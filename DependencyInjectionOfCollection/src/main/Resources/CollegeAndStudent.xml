@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- bean definitions here -->
+
+	<bean id="c1" class="com.SpringCore.DTO.College">
+
+		<property name="cname" value="RCET" />
+		<property name="studentdata">
+			<map>
+				<entry key="123" value="Yugal" />
+				<entry key="123" value="Rakesh" />
+				<!-- Here it will just update the value to the latest key and value pair -->
+				<entry key="125" value="Mohit" />
+				<entry key="126" value="Shulkul" />
+			</map>
+
+		</property>
+	</bean>
+
+</beans>

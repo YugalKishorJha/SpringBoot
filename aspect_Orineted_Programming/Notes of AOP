@@ -1,0 +1,134 @@
+here aspect means abstract for which we have to provide the service(implementation)
+
+This is used to add different 
+cross cutting functionalities(different type of service to the application at the runtime)  
+
+Exa:-
+
+To instantiate the class Account
+{
+void Withdraw(){
+			withdraw logic need to take place all below things should happen
+			authentication 
+			logging
+			transaction
+}
+
+void Deposit(){
+			deposit logic need to take place all below thing should happen
+			authentication 
+			logging
+			transaction
+}
+
+here the authentication ,logging ,transaction login can be injected by making  
+different classes at runTime this is called as cross cutting
+
+
+Pros of cross cutting->
+
+1.Remove modification sim to methods at all the places
+2.Removing of services is easier.
+3.We can seprate the services(Logging,Transaction because ReadyMade API is there for all these services) 
+	and client logic
+---------------------------------------------------------------
+IMP points For AOP
+
+*While implementing business logic for the real time applications,apart from bussiness 
+logic some other services also will be added to make that as enterprise level one.
+
+*According to spring ,the services that are overlapping on the 
+business logic are called as cross cutting functionalities ,logic+service make the code messier
+
+ 
+*The process of separating the business logic and service is called as AOP
+
+*We usually implement the cross cutting technologies separately and is combined at the run time.  
+
+
+
+AOP makes the class simpler for exa
+--------------------------------------------------------------------------
+class banking {
+
+void withdraw(){
+withdraw logic will be here only
+and all the three different dependencies will be written separately
+               }
+               
+void deposit() {
+deposit logic will be here only
+and all the three different dependencies will be written separately
+               }
+}
+--------------------------------------------------------------------------
+
+
+Types of spring AOP
+
+*Aspect
+*Advice
+*JoinPoint
+*Pointcut
+*Introduction
+*Target
+*Proxy
+*Weaving
+*Adviser
+
+
+-------------------------------
+Spring AOP
+
+An aspect represent the cross cutting functionality name (only name)
+
+One real time service required for a bussiness logic is called one aspect
+
+Aspect denotes only the cross cutting functionality name not its implementation
+
+At run time the cross cutting must be added with the bussiness logic
+
+exa -
+
+ 3 services means 3 Aspects are Authentication Aspect,Logging Aspect ,Transaction Aspect may be mailing 
+ Aspect in future
+ 
+ Aspect means just service name .
+ 
+ ---------------------------------
+ 
+ Advice is the implementation of aspect .An advice provide the code for 
+ the implementaion of the service of the service .As an example consider logging service ,logging is an 
+ Aspect and advice denotes  the implementation of log4j
+ 
+ Types of advice
+ 
+ *Before advice
+ *After advice 
+ *Throws advice
+ *Around advice
+ 
+ ---------------------------------------------
+ 
+ *Before advice
+ 
+ 1.This advice contains the implementation if the service
+  that is needed to executed before bussiness logic.
+ 
+ 2.During compilation time the services will not be applied
+ 
+ 
+ 
+ 
+ --------------
+ point cut can be done two ways one can be done statically or dynamically
+ it is used when the service is not needed to execute for a particular bussiness logic
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

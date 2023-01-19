@@ -1,0 +1,14 @@
+1671038925986	Delete element
+1671038933204	Delete element
+1671038938547	Delete element
+1671038944516	Delete element
+1671039348156	Rename type 'Book'
+1671039367128	Rename type 'BookRepo'
+1671039864344	Rename type 'BookController'
+1671040626559	Extract local variable 'findById'
+1671041074866	Extract local variable 'save'
+1671041228705	Extract local variable 'findById'
+1671043113576	Copy compilation unit
+1671043137075	Delete element
+1671083363335	Delete element
+1671084395522	Extract local variable 'findAll'

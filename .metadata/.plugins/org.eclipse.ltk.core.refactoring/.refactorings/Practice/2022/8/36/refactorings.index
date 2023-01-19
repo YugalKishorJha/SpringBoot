@@ -1,0 +1,9 @@
+1661848682356	Delete element
+1661848704198	Rename package 'com.SpringCore.Practice'
+1661850317657	Rename package 'com.SpringCore.DAO'
+1661850340905	Rename package 'com.SpringCore.DTO'
+1661850359786	Rename package 'com.SpringCore.DTO1'
+1661851073807	Rename local variable 'SpCon1'
+1661851127613	Extract local variable 'bean'
+1661928767341	Rename resource 'Journey.xml'
+1661929053227	Extract local variable 'c1'

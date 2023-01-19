@@ -1,0 +1,10 @@
+int passCap;
+
+	public void move() {
+		System.out.println("The passanger capacity is" + passCap);
+		System.out.println("We are travelling through car");
+	}
+
+	void setPassCap(int passCap) {// setter for setting the value of field
+		this.passCap = passCap;
+	}

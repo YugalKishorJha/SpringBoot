@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+
+	<bean id="FirstStudent"
+		class="com.SpringCore.IOC.StudentWithStream">
+		<constructor-arg value="101" />
+		<constructor-arg value="yugal" />
+		<constructor-arg name="st" >
+			<ref bean="FirstStudentStream" />
+			<!-- refrencing the child element through id for different xml file in 
+				composition using ref parent tag nested in ID tag -->
+		</constructor-arg>
+		<!-- for setter as well the same tag -->
+		
+	</bean>
+</beans>

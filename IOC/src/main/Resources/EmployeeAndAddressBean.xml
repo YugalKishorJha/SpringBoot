@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	
+	<bean id="FirstEmployeeAddress" class="com.SpringCore.IOC.Address">
+		<property name="city" value="Banglore" />
+		<property name="state" value="Karnataka" />
+		<property name="country" value="India" />
+	</bean>
+	
+
+	<bean id="FirstEmployee" class="com.SpringCore.IOC.Employee">
+		<property name="id" value="101" />
+		<property name="name" value="yugal" />
+		<property name="add" ref="FirstEmployeeAddress" />
+		
+	</bean>
+
+	
+</beans>

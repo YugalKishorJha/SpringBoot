@@ -1,0 +1,18 @@
+1662128163760	Rename package 'com.SpringCore.DependencyInjectionOfCollection'
+1662128189437	Delete element
+1662129216035	Rename type 'App'
+1662129502681	Extract local variable 'bean'
+1662130178037	Rename resource 'courseBean.xml'
+1662130202652	Rename type 'CourseConcept'
+1662138514121	Delete element
+1662138523597	Delete element
+1662139032941	Extract local variable 'bean'
+1662140970855	Rename type 'vendor'
+1662141862601	Extract local variable 'bean'
+1662142993301	Extract local variable 'next'
+1662143647507	Rename resource 'VendorAndCustomerBean.xml'
+1662144917485	Rename local variable 'v1'
+1662214712137	Move compilation unit
+1662214727674	Move compilation unit
+1662215122849	Extract local variable 'cr1'
+1662215828787	Extract local variable 'studentdata'

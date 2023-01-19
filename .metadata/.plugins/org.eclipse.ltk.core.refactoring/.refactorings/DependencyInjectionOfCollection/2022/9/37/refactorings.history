@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;bean&apos; from expression &apos;sp1.getBean(&quot;c1&quot;)&apos;&#x0D;&#x0A;- Original project: &apos;DependencyInjectionOfCollection&apos;&#x0D;&#x0A;- Variable name: &apos;bean&apos;&#x0D;&#x0A;- Destination method: &apos;com.SpringCore.DAO.CollegeStudentDAO.main(...)&apos;&#x0D;&#x0A;- Variable expression: &apos;sp1.getBean(&quot;c1&quot;)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;bean&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.SpringCore.DAO{CollegeStudentDAO.java" name="bean" replace="true" selection="380 17" stamp="1662587280727" varType="false" version="1.0"/>
+</session>

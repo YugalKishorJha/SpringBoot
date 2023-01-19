@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- bean definitions here -->
+
+	<bean id="v1" class="com.SpringCore.DTO.NonPrimitive.Vendor">
+		<property name="name" value="ShriGanesh" />
+		<property name="cs">
+			<set>
+				<ref bean="cs1" />
+				<ref bean="cs2" />
+				<ref bean="cs3" />
+				<ref bean="cs4" />
+			</set>
+		</property>
+	</bean>
+	<bean id="cs1" class="com.SpringCore.DTO.NonPrimitive.Customer">
+		<property name="cid" value="101" />
+		<property name="name" value="Yugal" />
+		<property name="phNo" value="8431013545" />
+	</bean>
+
+	<bean id="cs2" class="com.SpringCore.DTO.NonPrimitive.Customer">
+		<!-- Here the id is duplicated hence we have to OR HC and E to compare 
+			ID -->
+		<property name="cid" value="101" />
+		<property name="name" value="Mohit" />
+		<property name="phNo" value="8431054545" />
+	</bean>
+
+	<bean id="cs3" class="com.SpringCore.DTO.NonPrimitive.Customer">
+		<property name="cid" value="102" />
+		<property name="name" value="Ak" />
+		<property name="phNo" value="8451013545" />
+
+	</bean>
+
+	<bean id="cs4" class="com.SpringCore.DTO.NonPrimitive.Customer">
+		<property name="cid" value="103" />
+		<property name="name" value="Sunil" />
+		<property name="phNo" value="7411013545" />
+	</bean>
+
+
+</beans>

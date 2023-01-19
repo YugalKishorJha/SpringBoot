@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- bean definitions here -->
+
+	<bean id="v1" class="com.SpringCore.DTO.NonPrimitive.VendorForCustomerOR_HC_Eq">
+		<property name="name" value="ShriShivaStore" />
+		<property name="cs">
+			<list>
+				<ref bean="cr1" />
+				<ref bean="cr2" />
+				<ref bean="cr3" />
+				<ref bean="cr4" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="cr1"
+		class="com.SpringCore.DTO.NonPrimitive.CustomerWithORHC">
+		<property name="cid" value="101" />
+		<property name="cname" value="yugal" />
+		<property name="phNo" value="9179494936" />
+	</bean>
+
+	<bean id="cr2"
+		class="com.SpringCore.DTO.NonPrimitive.CustomerWithORHC">
+		<property name="cid" value="102" />
+		<property name="cname" value="mohit" />
+		<property name="phNo" value="91791452936" />
+	</bean>
+
+	<bean id="cr3"
+		class="com.SpringCore.DTO.NonPrimitive.CustomerWithORHC">
+		<property name="cid" value="101" />
+		<!--Here the id are same because we OR the HC and equals hence it will 
+			not be added -->
+		<property name="cname" value="Ak" />
+		<property name="phNo" value="7824524520" />
+	</bean>
+
+	<bean id="cr4"
+		class="com.SpringCore.DTO.NonPrimitive.CustomerWithORHC">
+		<property name="cid" value="103" />
+		<property name="cname" value="Alok" />
+		<property name="phNo" value="7849494936" />
+	</bean>
+
+</beans>

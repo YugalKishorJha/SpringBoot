@@ -1,0 +1,10 @@
+1663001362148	Rename package 'com.SpringCore.practice2'
+1663001418862	Rename type 'App'
+1663006028851	Delete element
+1663021315782	Delete element
+1663021329517	Delete element
+1663022733059	Extract local variable 'bean'
+1663040400485	Extract local variable 'bean'
+1663056211546	Extract local variable 'queryForList'
+1663070064721	Move file
+1663070097803	Move compilation unit

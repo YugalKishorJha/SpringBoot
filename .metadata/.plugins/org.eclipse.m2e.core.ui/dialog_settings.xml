@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.SpringCore.annotaion"/>
+			<item value="com.SpringCore.aspect_Orineted_Programming"/>
+			<item value="com.SpringCore.Properties"/>
+			<item value="com.SpringCore.practice2"/>
+			<item value="com.SpringCore.spring_JDBC"/>
+			<item value="com.SpringCore.autoWiring"/>
+			<item value="com.SpringCore.DependencyInjectionOfCollection"/>
+			<item value="com.SpringCore._Practice"/>
+			<item value="com.SpringCore.Practice"/>
+			<item value="com.SpringCore.DependencyAndLooseCoupling"/>
+			<item value="com.SpringCore.IOC"/>
+		</list>
+		<list key="groupId">
+			<item value="com.SpringCore"/>
+		</list>
+		<list key="artifactId">
+			<item value="annotaion"/>
+			<item value="aspect_Orineted_Programming"/>
+			<item value="Properties"/>
+			<item value="practice2"/>
+			<item value="spring-JDBC"/>
+			<item value="autoWiring"/>
+			<item value="DependencyInjectionOfCollection"/>
+			<item value="_Practice"/>
+			<item value="Practice"/>
+			<item value="DependencyAndLooseCoupling"/>
+			<item value="IOC"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Yugal kishor Jha\Desktop\CRUDUsingRest"/>
+			<item value="C:\Users\Yugal kishor Jha\Desktop\practiceOfCRUD"/>
+			<item value="C:\Users\Yugal kishor Jha\Desktop\demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

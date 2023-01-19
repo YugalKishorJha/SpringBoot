@@ -1,0 +1,6 @@
+1662646489828	Rename source folder 'src/main/Resouces'
+1662646514379	Rename package 'com.SpringCore.autoWiring'
+1662646533331	Rename package 'com.SpringCore.DTO'
+1662647160394	Rename type 'App'
+1662649033674	Rename type 'Byname'
+1662726526759	Extract local variable 'bean'
